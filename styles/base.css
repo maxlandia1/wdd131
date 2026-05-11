@@ -115,3 +115,7 @@ footer {
     text-decoration: underline;
     transition: 0.3s;
 }
+
+.card li {
+    line-height: 1.5;
+}

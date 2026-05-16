@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Tip: Give your image container a specific class name like <div class="gallery"> 
-   instead of a raw 'div' rule, otherwise it forces your navigation container 
-   into a 1-column grid block too! */
-
 
 h1 {
     text-align: center;
@@ -55,8 +51,6 @@ h1 {
     background-color: #3b015a;
     
     
-    
-
     }
 
     .navigation.open {

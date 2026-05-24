@@ -1,12 +1,20 @@
 @media screen and (max-width: 500px) {
 
+    :root {
+            --primary-color: #006B54;
+            --secondary-color: #3b015a;
+            --divbackground-color: #f0f0f0;
+            --text-color: #333;
+        
+        }
+
     body {
         width: 100%;
         margin: 0;
     }
 
     h1 {
-        background-color: #1a1a1a;
+        background-color: var(--text-color);
     }
     .data, .weather {
        position: static;
@@ -25,9 +33,12 @@
 
     .weather h2, .data h2 { text-align: center;
         background-color: transparent;
-        color: black;
-        font-weight: 10px;
+        color: var(--text-color);
         font-weight: bold;
+    }
+
+    .weather h2, .data h2 {
+        color: black;
     }
 
     p {
@@ -36,7 +47,7 @@
 
     
     footer {
-    background-color: #1a1a1a;
+    background-color: var(--text-color);
 
 }
 }

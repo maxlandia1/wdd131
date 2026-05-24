@@ -1,0 +1,42 @@
+@media screen and (max-width: 500px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+    h1 {
+        background-color: #1a1a1a;
+    }
+    .data, .weather {
+       position: static;
+    }
+    
+    .weather h2::after {
+        content: none;
+    }
+
+    .weather img { display: block;
+        width: 70px;
+        height: auto;
+        margin: 0 auto;
+        
+    }
+
+    .weather h2, .data h2 { text-align: center;
+        background-color: transparent;
+        color: black;
+        font-weight: 10px;
+        font-weight: bold;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    
+    footer {
+    background-color: #1a1a1a;
+
+}
+}

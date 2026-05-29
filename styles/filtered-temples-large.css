@@ -1,0 +1,83 @@
+header,
+main,
+footer {
+    max-width: 800px;
+    margin: 1rem auto;
+}
+
+header {
+    background-color: #3b015a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px
+}
+
+header span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: "roboto", sans-serif;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+p {
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    color: #3b015a;
+}
+
+figcaption {
+    padding: 10px;
+    color: #3b015a;
+    /* Matching your purple theme */
+    font-weight: bold;
+}
+
+
+#menu {
+    display: none;
+}
+
+footer {
+    background-color: #3b015a;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+}
+

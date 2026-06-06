@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+}
+
+header, main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10rem;
+    gap: 0.5rem;}
+
+a {text-decoration: none;
+    color: black;
+    font-size: large;
+
+}
+
+a:hover {
+    color: red;
+        text-decoration: underline;
+        transition: 0.3s;
+}
+    

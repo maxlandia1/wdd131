@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+
+body { display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.input-group {
+    position: relative;
+    width: 300px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 10px;
+    outline: none;
+    border: 1px solid #068fff;}
+
+.input-group label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+}

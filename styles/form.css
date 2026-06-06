@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form {margin: 1rem 0;
+    border: 1px solid #d1cbd4;;
+    padding: .5rem;
+    border-radius: 6px;
+    background-color: #eee;
+}
+
+header {
+    background-color: #068fff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.review-form label  {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.review-form input[type="text"],
+.review-form input[type="date"],
+.review-form select {
+    width: 100%;
+    padding: .75rem;
+    margin-bottom: .75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 400px;
+    background-color: white;
+}
+
+.rating-container {
+    display: flex;
+    gap: 25px;
+    margin-top: 1rem;
+}
+
+.rating-container label {
+    display: flex;
+   flex-direction: column-reverse;
+    align-items: center;
+    font-size: .9rem;
+}
+
+div {margin-bottom: 5px;
+}
+
+
+.review-form label input[type="checkbox"] {
+    margin-right: .5rem;
+}
+
+.review-form input[type="submit"] {
+    border: none;
+    color: black;
+    padding: .75rem;
+    background-color: #999;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+    margin-left: 0;
+}
+
+
+footer {
+    background-color: #068fff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

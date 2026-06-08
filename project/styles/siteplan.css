@@ -1,0 +1,35 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333333;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+    color: #2c5e3b;
+    /* Forest Green */
+    border-bottom: 2px solid #8ebd9e;
+    /* Sage Green */
+    padding-bottom: 5px;
+}
+
+p,
+li {
+    font-family: Georgia, serif;
+    line-height: 1.5;
+}
+
+.color-example {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    margin-right: 10px;
+    border: 1px solid #444;
+    vertical-align: middle;
+}

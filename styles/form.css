@@ -20,7 +20,7 @@ header {
 
 .review-form label  {
     display: block;
-    margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 
@@ -53,6 +53,10 @@ header {
 div {margin-bottom: 5px;
 }
 
+.rating-box div{
+    margin: -1px;
+}
+
 
 .review-form label input[type="checkbox"] {
     margin-right: .5rem;
@@ -76,10 +80,6 @@ div {margin-bottom: 5px;
     display: block;
 }
 
-.review-form label {
-    margin-bottom: 0;
-    
-}
 
 
 footer {

@@ -14,42 +14,70 @@
 </head>
 <body>
     <header><h1>Product Review</h1></header>
+    <main>
     <form method="get" action="review.html" class="review-form">
-        <div>Product Name</div>
+        <label for="review">Product Name*</label>
         <select id="review" name="review" required>
             <option value="" disabled selected>Choose a Product...</option>
         </select>
         <div class="rating-box">
-            <div>Overall Rating</div>
+            <div>Overall Rating*</div>
             <div class="rating-container">
-                <label><input type="radio" id="onestar" name="stars" value="1" required>&star;</label>
-                <label><input type="radio" id="twostar" name="stars" value="2" required>&star; &star;</label>
-                <label><input type="radio" id="threestar" name="stars" value="3" required>&star; &star; &star;</label>
-                <label><input type="radio" id="fourstar" name="stars" value="4" required>&star; &star; &star; &star;</label>
-                <label><input type="radio" id="fivestar" name="stars" value="5" required>&star; &star; &star; &star; &star;</label>
+                <div class="rating-item">
+                    <input type="radio" id="onestar" name="stars" value="1" required>
+                    <label for="onestar">&star;</label>
                 </div>
-        </div>
             
+                <div class="rating-item">
+                    <input type="radio" id="twostar" name="stars" value="2" required>
+                    <label for="twostar">&star; &star;</label>
+                </div>
+            
+                <div class="rating-item">
+                    <input type="radio" id="threestar" name="stars" value="3" required>
+                    <label for="threestar">&star; &star; &star;</label>
+                </div>
+            
+                <div class="rating-item">
+                    <input type="radio" id="fourstar" name="stars" value="4" required>
+                    <label for="fourstar">&star; &star; &star; &star;</label>
+                </div>
+            
+                <div class="rating-item">
+                    <input type="radio" id="fivestar" name="stars" value="5" required>
+                    <label for="fivestar">&star; &star; &star; &star; &star;</label>
+                </div>
+            </div>
+        </div>    
+            
+<label for="install-date">Date Of Installation*</label>
+<input type="date" id="install-date" name="install-date" required>
 
-    <div>Date Of Installation</div>
-    <label><input type="date" id="install-date" name="install-date" required></label>
+    <div>Which features did you find most useful in the product?<br>(check all that apply)</div>
+    
+    <input type="checkbox" id="durability" name="durability" value="yes">
+    <label for="durability">Durability</label><br>
+    
+    <input type="checkbox" id="simplicity" name="simplicity" value="feature2">
+    <label for="simplicity">Ease of use</label><br>
+    
+    <input type="checkbox" id="performance" name="performance" value="feature3">
+    <label for="performance">Performance</label><br>
+    
+    <input type="checkbox" id="design" name="design" value="feature4">
+    <label for="design">Design</label>
 
-    <div>Which features did you find most useful in the product?
-        (check all that apply)</div>
-    </div>
-    <label><input type="checkbox" id="durability" name="durability" value="yes"> Durability</label>
-    <label><input type="checkbox" id="simplicity" name="simplicity" value="feature2"> Ease of use</label>
-    <label><input type="checkbox" id="performance" name="performance" value="feature3"> Performance</label>
-    <label><input type="checkbox" id="design" name="design" value="feature4"> Design</label>
+    <label for="review-text">Written Review (optional)</label>
+    <textarea id="review-text" name="review-text" rows="4" cols="40"></textarea>
 
-    <div>Written Review (optional)</div>
-    <label><textarea id="review-text" name="review-text" rows="4" cols="40"></textarea></label>
+    <label for="name">Your Name(optional)</label>
+    <input type="text" id="name" name="name">
+    
 
-    <div>Your Name(optional)</div>
-    <label><input type="text" id="name" name="name"></label>
 
     <input type="submit" value="Post review">
     </form>
+    </main>
 
     <footer>
         <p>

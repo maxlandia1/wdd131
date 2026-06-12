@@ -1,4 +1,4 @@
-const counterElement = document.getElementById("review-counter");
+const counterElement = document.getElementById("submission-count");
 
 let numReviews = localStorage.getItem("rabbitReviewCount");
 

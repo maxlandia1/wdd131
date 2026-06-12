@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Guide - WDD131 | Dynamic Web Fundamentals - Amenaghawon Imuetinyan Favour</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="description" content="Explore our interactive indoor rabbit diet guide. Easily check which fresh greens, vegetables, and leaves are safe or toxic for your pet bunny.">
+    <meta name="author" content="Amenaghawon Imuetinyan Favour">
+    <link rel="stylesheet" href="styles/diet.css">
+    <script src="scripts/diet.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <H1>The Rabbit Burrow</H1>
+        </div>
+        <button id="menu" class="hamburger-button">☰</button>
+            <nav class="navigator">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="diet.html">Diet</a></li>
+                    <li><a href="setup.html">Contact & Setup</a></li>
+                </ul>
+            </nav>
+    </header>
+
+
+    <main>
+            <section class="welcome-section">
+                <h2>Rabbit Diet & Nutrition Guide</h2>
+                <p>Rabbits have incredibly sensitive digestive systems. Use the filters below to instantly check which greens, fruits, and
+                leaves are safe for your furry companion, and which ones to avoid entirely</p>
+            </section>
+        <div class="image-container">
+            <img src="images/bunny1.jpg" alt="an image of rabbits eating hay">
+        </div>
+
+            <nav class="filter-buttons">
+                <button id="all-btn">Show All</button>
+                <button id="safe-btn">🟢 Safe to Feed</button>
+                <button id="unsafe-btn">🔴 Toxic / Avoid</button>
+            </nav>
+
+            <section id="food-grid" class="features-container">
+            </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy;<span id="currentyear"></span> 🌴 Amenaghawon Imuetinyan Favour 🌴 Nigeria
+        </p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+</html>

@@ -1,6 +1,6 @@
 const counterElement = document.getElementById("review-counter");
 
-let numReviews = localStorage.getItem('reviewcount');
+let numReviews = localStorage.getItem("rabbitReviewCount");
 
 numReviews = Number(numReviews) || 0;
 
@@ -9,4 +9,4 @@ if (counterElement) {
     counterElement.textContent = numReviews;
 }
 
-localStorage.setItem('reviewcount', numReviews)
+localStorage.setItem('rabbitReviewCount', numReviews)

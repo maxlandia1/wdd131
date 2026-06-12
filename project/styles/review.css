@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+}
+
+header,
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    gap: 0.5rem;
+    
+}
+
+
+header {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #2c5e3b;
+    font-size: 1.3rem;
+    padding: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+
+p {
+    font-family: Georgia, serif;
+    font-size: 1.1rem;
+}
+
+a:hover {
+    color: #fff000;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 400px){
+    header,
+     main {
+    display: block;
+    text-align: center;
+    gap: 0.5rem;
+    
+}
+}
